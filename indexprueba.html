@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>GeoSapiens Academy</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/70fcc08ade.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="./swiper-bundle.min.css">
+        <link rel="stylesheet" href="./bootstrap.min.css">
+        <link rel="stylesheet" href="/estilos.css">
+        <link rel="shortcut icon" href="/Media/GSA.png">
+        
+        
+
+        <script src="
+https://cdn.jsdelivr.net/npm/swiper@11.0.4/swiper-bundle.min.js
+"></script>
+<link href="
+https://cdn.jsdelivr.net/npm/swiper@11.0.4/swiper-bundle.min.css
+" rel="stylesheet">
+      
+      </head>
+      <body>
+        <header>
+            <a href="/indexprueba.html">
+                <div class="logo">
+                    <img src="/Media/GSA.png" alt="Logo">
+                </div>
+            </a>
+            <div class="buscador">
+                <input type="text" placeholder="Buscar cursos...">
+            </div>
+<!------------------------------------- NAV ------------------------------------->
+    
+            <nav>
+                <ul>
+                    <li><a href="#cursos">Cursos</a></li>
+                    <li><a href="#">Profesores</a></li>
+                    <li><a href="#footer">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+<!------------------------------------ HERO ------------------------------------>
+      <div class="container">
+        <br>
+        <div id="theCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicadores -->
+          <ol class="carousel-indicators">
+            <li data-target="#theCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#theCarousel" data-slide-to="1"></li>
+            <li data-target="#theCarousel" data-slide-to="2"></li>
+            
+          </ol>
+      
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="/Media/Imagen1.jpg" alt="Ilustracion" > 
+               <div class="carousel-caption d-none d-md-block">
+
+        </div>
+            </div>
+
+            <div class="item">
+              <img src="/Media/Imagen2.jpg" alt="fotografia" width="600" height="424"> 
+               <div class="carousel-caption d-none d-md-block">
+
+        </div>
+            </div>
+      
+           <div class="item">
+              <img src="/Media/Imagen3.jpg" alt="Curso2" width="600" height="424">
+               <div class="carousel-caption d-none d-md-block">
+        </div>
+            </div>
+      
+      
+          <a class="left carousel-control" href="#theCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">anterior</span>
+          </a>
+          <a class="right carousel-control" href="#theCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">siguiente</span>
+          </a>
+        </div>
+      </div>
+
+<!------------------------------------ CURSOS ------------------------------------>
+<div class="cursos">
+    <div class="slide-container swiper">
+        <div class="slide-content">
+            <div class="card-wrapper swiper-wrapper">
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                            <div id="cursos"></div>
+                            <div class="card-image">
+                                <img src="/Media/curso2.jpg" alt="Curso1" class="card-img">
+    
+                            </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name">Fundamentos espaciales</h2>
+                        <p class="description">Adquiere un entendimiento profundo de los Fundamentos Espaciales. Explora en detalle los SRID y el Consortium Geoespacial Abierto (OGC), proporcionando una base sólida en los Conceptos Espaciales Fundamentales. Diseñado para mentes analíticas, representa una vía esencial hacia la comprensión avanzada del espacio geoespacial.</p>
+                        <a href="/Fundamentos espaciales/fundamentos_espaciales.html">
+                            <button class="button">Ver más</button>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+    
+                            <div class="card-image">
+                                <img src="/Media/Curso1.jpg" alt="Curso1" class="card-img">
+    
+                            </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name">SQL en el Contexto Espacial</h2>
+                        <p class="description">Desarrollado para estudiantes universitarios y profesionales, el Curso SQL en el Contexto Espacial profundiza en el Modelo de Datos Espaciales en SQL (SQL_MM). Aprenderás a ejecutar Consultas Espaciales precisas y eficientes, perfeccionando tus habilidades en la manipulación avanzada de datos espaciales dentro del marco del lenguaje SQL.</p>
+
+                        <a href="/SQL en el Contexto Espacial/SQL en el Contexto Espacial.html">
+                            <button class="button">Ver más</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+    
+                            <div class="card-image">
+                                <img src="/Media/Curso3.jpg" alt="Curso1" class="card-img">
+    
+                            </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name">BDE Avanzadas</h2>
+                        <p class="description">Este programa abarca desde los principios fundamentales de las Bases de Datos Espaciales hasta la exploración de Aplicaciones y Casos de Uso. Domina Funciones Espaciales Avanzadas para aplicaciones prácticas en entornos profesionales y académicos de alto nivel. Eleva tu competencia en bases de datos espaciales a un nivel superior.</p>
+
+                        <a href="/BDE Avanzadas/BDE Avanzadas.html">
+                            <button class="button">Ver más</button>
+                        </a>
+                    </div>
+                    
+                </div>
+
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+    
+                            <div class="card-image">
+                                <img src="/Media/hombre.jpg" alt="Curso1" class="card-img">
+    
+                            </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name">Simple SQL</h2>
+                        <p class="description">Este programa abarca desde los principios fundamentales de las Bases de Datos Espaciales hasta la exploración de Aplicaciones y Casos de Uso. Domina Funciones Espaciales Avanzadas para aplicaciones prácticas en entornos profesionales y académicos de alto nivel. Eleva tu competencia en bases de datos espaciales a un nivel superior.</p>
+
+                        <a href="/Simple SQL/SimpleSQL.html">
+                            <button class="button">Ver más</button>
+                        </a>
+                    </div>
+                    
+                </div>
+
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+    
+                            <div class="card-image">
+                                <img src="/Media/Curso1.jpg" alt="Curso1" class="card-img">
+    
+                            </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name">Geometries</h2>
+                        <p class="description">Este programa abarca desde los principios fundamentales de las Bases de Datos Espaciales hasta la exploración de Aplicaciones y Casos de Uso. Domina Funciones Espaciales Avanzadas para aplicaciones prácticas en entornos profesionales y académicos de alto nivel. Eleva tu competencia en bases de datos espaciales a un nivel superior.</p>
+
+                        <a href="/Geometries/Geometries.html">
+                            <button class="button">Ver más</button>
+                        </a>
+                    </div>
+                    
+                </div>
+
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+    
+                            <div class="card-image">
+                                <img src="/Media/Mujer.jpg" alt="Curso1" class="card-img">
+    
+                            </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name">Ejercicios indexación espacial</h2>
+                        <p class="description">Este programa abarca desde los principios fundamentales de las Bases de Datos Espaciales hasta la exploración de Aplicaciones y Casos de Uso. Domina Funciones Espaciales Avanzadas para aplicaciones prácticas en entornos profesionales y académicos de alto nivel. Eleva tu competencia en bases de datos espaciales a un nivel superior.</p>
+
+                        <a href="/Indexacion espacial/IndexEspacial.html">
+                            <button class="button">Ver más</button>
+                        </a>
+                    </div>
+                    
+                </div>
+
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+    
+                            <div class="card-image">
+                                <img src="/Media/Curso3.jpg" alt="Curso1" class="card-img">
+    
+                            </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name">Ejercicios Relaciones Espaciales</h2>
+                        <p class="description">Este programa abarca desde los principios fundamentales de las Bases de Datos Espaciales hasta la exploración de Aplicaciones y Casos de Uso. Domina Funciones Espaciales Avanzadas para aplicaciones prácticas en entornos profesionales y académicos de alto nivel. Eleva tu competencia en bases de datos espaciales a un nivel superior.</p>
+
+                        <a href="/Ejercicios SQL de relaciones espaciales/RelacionesEspaciales.html">
+                            <button class="button">Ver más</button>
+                        </a>
+                    </div>
+                    
+                </div>
+
+                
+            </div>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+</div>
+
+<!------------------------------------ FOOTER ------------------------------------>
+
+<footer id="footer">
+    <div class="container">
+
+        <section class="contact">
+            
+            <div class="redes_container">
+                <ul>
+                    <li><a target="_blank" href="https://es-la.facebook.com/GeiperUD/" class="fb"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="mailto: geiper@udistrital.edu.co" class="ig"><i class="fa-solid fa-envelope-open"></i></a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/in/geiper-semillero-google-drive-0a29509a/?originalSubdomain=co" class="ln"><i class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
+                <br>
+<div class="creado_por">Hecho con  💚   por Diego Andrés Garzón, Miguel Ángel Molina Nova y Laura Pastrana Basto </div>
+            </div>
+        </section>
+
+    </div>
+</footer>
+
+      </body>
+
+      <script src="./swiper-bundle.min.js"></script>
+
+      <script src="/script.js"></script>
+
+
+</html>
